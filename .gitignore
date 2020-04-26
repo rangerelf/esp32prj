@@ -1,0 +1,5 @@
+/.py.d
+/.fw.d
+/.micropython.d
+*.mpy
+*.mpy.ul

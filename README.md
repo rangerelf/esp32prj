@@ -2,6 +2,9 @@
 
 This base repository contains a `Makefile` and `.gitignore` files that can help you streamline a micropython project.
 
+All your python module sources go in `/src`, the compiled files go into `/lib`, and that is where all the recipes in this Makefile search for them.
+
+
 ## `Makefile`
 
 The `Makefile` will help you by streamlining the usual drudge work of setting up the project, gathering the tools you need, running the tools, and so on and so forth.  If you run `make` by itself you get the following:

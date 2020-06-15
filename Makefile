@@ -11,10 +11,10 @@ PY_REQUIREMENTS	= adafruit-ampy esptool pyserial
 VIRTUALENV	= /usr/bin/virtualenv
 
 # Predefine full paths to some tools
-MPY_CROSS	= $(MICROPYTHON_D)/mpy-cross/mpy-cross
-AMPY		= $(VENV_D)/bin/ampy
-ESPTOOL		= $(VENV_D)/bin/esptool.py
-MINITERM	= $(VENV_D)/bin/miniterm.py
+MPY_CROSS = $(MICROPYTHON_D)/mpy-cross/mpy-cross
+AMPY      = $(VENV_D)/bin/ampy
+ESPTOOL   = $(VENV_D)/bin/esptool.py
+MINITERM  = $(VENV_D)/bin/miniterm.py
 
 # Serial port configuration parameters.
 # baud rates: 57600 115200 230400 460800 576000 921600
@@ -28,8 +28,8 @@ YEAR	:= $(shell date +%Y)
 MICROPYTHON_REPO = https://github.com/micropython/micropython.git
 MICROPYTHON_ORG  = https://micropython.org
 FIRMWARES_PAGE	 = $(MICROPYTHON_ORG)/download/esp32
-DOWNLOAD_URL	 = $(MICROPYTHON_ORG)/resources/firmware
-VERSION		?=
+DOWNLOAD_URL     = $(MICROPYTHON_ORG)/resources/firmware
+VERSION         ?=
 
 # Filenames of our stuff.
 SOURCES		:= $(shell ls src/*.py 2>/dev/null)

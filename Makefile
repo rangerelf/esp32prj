@@ -112,6 +112,8 @@ venv:
 	-@rm -rf $(VENV_D)
 	@make $(VENV_D)
 
+mpy-cross: $(MPY_CROSS)
+
 ########################################################################
 ## Display a list of the most recent firmwares available
 ##

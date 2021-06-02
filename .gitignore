@@ -4,3 +4,4 @@
 /.micropython.d
 *.mpy
 *.mpy.ul
+esp32-idf*.bin
